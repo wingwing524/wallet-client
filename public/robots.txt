@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap (update with your actual domain)
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
